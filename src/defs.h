@@ -10,4 +10,10 @@ using std::cout;
 using std::endl;
 using std::string;
 
+namespace ip = boost::asio::ip;
+
+class Message;
+class VersionMessage;
+
+
 #endif
